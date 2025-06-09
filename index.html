@@ -1,50 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harpya System</title>
-    <link rel="icon" href="pixlr-image-generator-eb48da40-cb3f-4d12-9b50-661b6c87d833.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Harpya System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    /* Container que permite scroll horizontal */
+    .table-responsive {
+      overflow-x: auto;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 600px; /* largura mínima */
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #007acc;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 14px;
+        margin: 10px;
+      }
+      th, td {
+        padding: 6px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+    }
+  </style>
 </head>
-<h1>Harpya System</h1>
 <body>
-    <h1> Sistema Harpya, o gestor de senha baseado na sua segurança! </h1>
-    <p>O sistema Harpya veio para auxiliar as pessoas no controle e gestão de senhas pessoais e empresariais.
-        desenvolvido especialmente para melhorar a utilização e mantendo a segurança utilizando de inteligencia artificial e reconhecimento facial.
-    </p>
+  <h1>Harpya System</h1>
+  <h2>Sistema Harpya, o gestor de senha baseado na sua segurança!</h2>
+  <p>
+    O sistema Harpya veio para auxiliar as pessoas no controle e gestão de senhas pessoais e empresariais.
+    Desenvolvido especialmente para melhorar a utilização e mantendo a segurança utilizando inteligência artificial e reconhecimento facial.
+  </p>
+  <div class="table-responsive">
     <table>
-            <tr>
-                <th>Basic</th>
-                <th>Advanced</th>
-                <th>Premium</th>
-                <th>Empresarial</th>
-            </tr>
-            <tr>
-                <th>1 usuarios</th>
-                <th>5 Usuarios</th>
-                <th>10 usuarios</th>
-                <th>Sem limite</th>
-            </tr>
-            <tr>
-                <th>5 Logins e senhas</th>
-                <th>10 Logins e senhas</th>
-                <th>15 Logins e senhas</th>
-                <th>Sem limite</th>
-            </tr>
-            <tr>
-                <th>2 usuarios com reconhecimento facial</th>
-                <th>5 usuarios com reconhecimento facial</th>
-                <th>10 usuarios com reconhecimento facial</th>
-                <th>Sem limite</th>
-            </tr>
-            <tr>
-                <th>Free</th>
-                <th>R$ 19,90</th>
-                <th>R$ 29,90</th>
-                <th> 
-                    <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Sob Consulta</a>
-                </th>
-            </tr>
+      <tr>
+        <th>Basic</th>
+        <th>Advanced</th>
+        <th>Premium</th>
+        <th>Empresarial</th>
+      </tr>
+      <tr>
+        <td>1 usuário</td>
+        <td>5 usuários</td>
+        <td>10 usuários</td>
+        <td>Sem limite</td>
+      </tr>
+      <tr>
+        <td>5 Logins e senhas</td>
+        <td>10 Logins e senhas</td>
+        <td>15 Logins e senhas</td>
+        <td>Sem limite</td>
+      </tr>
+      <tr>
+        <td>2 usuários com reconhecimento facial</td>
+        <td>5 usuários com reconhecimento facial</td>
+        <td>10 usuários com reconhecimento facial</td>
+        <td>Sem limite</td>
+      </tr>
+      <tr>
+        <td>Free</td>
+        <td>R$ 19,90</td>
+        <td>R$ 29,90</td>
+        <td>
+          <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Sob Consulta</a>
+        </td>
+      </tr>
     </table>
+  </div>
 </body>
 </html>
