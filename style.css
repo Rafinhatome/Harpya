@@ -1,7 +1,18 @@
 body {
+  background-color: #01132B; /* cor clara, você pode trocar para a que quiser */
+  color: #ffffff
   font-family: Arial, sans-serif;
   margin: 20px;
 }
+
+h1, h2, h3 {
+  color: #ffffff; /* azul escuro */
+}
+
+p {
+  color: #ffffff; /* cinza médio */
+}
+
 
 /* Container que permite scroll horizontal */
 .table-responsive {
@@ -26,8 +37,12 @@ th {
   color: white;
 }
 
+tr:nth-child(odd) {
+  background-color: #ffffff; /* branco, pode trocar para outra cor */
+}
+
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #e6f2ff; /* azul clarinho, por exemplo */
 }
 
 a {
